@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7AF5D89-AA3B-46C4-8F4B-464FDCF93799}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>QLY_THIET_BI.My.MyApplication</StartupObject>
+    <RootNamespace>QLY_THIET_BI</RootNamespace>
+    <AssemblyName>QLY_THIET_BI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>QLY_THIET_BI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>QLY_THIET_BI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=9.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Dotnetbar 9.3.0\DotNetBar for Winform 9.3.0.0 Cracked DLL\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_change_pass.Designer.vb">
+      <DependentUpon>frm_change_pass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_change_pass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_grant_rights.Designer.vb">
+      <DependentUpon>frm_grant_rights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_grant_rights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_list_of_equipment.Designer.vb">
+      <DependentUpon>frm_list_of_equipment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_list_of_equipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_options.Designer.vb">
+      <DependentUpon>frm_options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_position.Designer.vb">
+      <DependentUpon>frm_position.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_position.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_inventory.Designer.vb">
+      <DependentUpon>frm_inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_type_of_equipment.Designer.vb">
+      <DependentUpon>frm_type_of_equipment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_type_of_equipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.vb">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_main.designer.vb">
+      <DependentUpon>frm_main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_users.Designer.vb">
+      <DependentUpon>frm_users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_users.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_employees.Designer.vb">
+      <DependentUpon>frm_employees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_employees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_groups_of_users.Designer.vb">
+      <DependentUpon>frm_groups_of_users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_groups_of_users.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_department.Designer.vb">
+      <DependentUpon>frm_department.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_department.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_access_rights.Designer.vb">
+      <DependentUpon>frm_access_rights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_access_rights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="rights_cmd.vb" />
+    <Compile Include="user_cmd.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_change_pass.resx">
+      <DependentUpon>frm_change_pass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_grant_rights.resx">
+      <DependentUpon>frm_grant_rights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_list_of_equipment.resx">
+      <DependentUpon>frm_list_of_equipment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_options.resx">
+      <DependentUpon>frm_options.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_position.resx">
+      <DependentUpon>frm_position.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_inventory.resx">
+      <DependentUpon>frm_inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_type_of_equipment.resx">
+      <DependentUpon>frm_type_of_equipment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_users.resx">
+      <DependentUpon>frm_users.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_employees.resx">
+      <DependentUpon>frm_employees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_groups_of_users.resx">
+      <DependentUpon>frm_groups_of_users.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_department.resx">
+      <DependentUpon>frm_department.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_access_rights.resx">
+      <DependentUpon>frm_access_rights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

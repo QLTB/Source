@@ -1,0 +1,46 @@
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\bin\Debug\QLY_THIET_BI.exe
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\bin\Debug\QLY_THIET_BI.pdb
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\bin\Debug\QLY_THIET_BI.xml
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\ResolveAssemblyReference.cache
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_login.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_main.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.Resources.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.vbproj.GenerateResource.Cache
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.exe
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.xml
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.pdb
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_change_pass.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_position.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_inventory.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_type_of_equipment.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_users.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_employees.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_groups_of_users.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_decentralization.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_department.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_access_rights.resources
+D:\WORKING\NCKH\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.Form1.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.exe
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.xml
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.pdb
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\ResolveAssemblyReference.cache
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.Form1.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_change_pass.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_grant_rights.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_list_of_equipment.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_options.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_position.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_inventory.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_type_of_equipment.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_login.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_main.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_users.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_employees.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_groups_of_users.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_department.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_access_rights.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.Resources.resources
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.vbproj.GenerateResource.Cache
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\bin\Debug\QLY_THIET_BI.exe
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\bin\Debug\QLY_THIET_BI.pdb
+\\HOANGSONPC\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\bin\Debug\QLY_THIET_BI.xml
