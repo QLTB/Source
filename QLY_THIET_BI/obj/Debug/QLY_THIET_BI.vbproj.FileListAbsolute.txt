@@ -90,3 +90,27 @@ C:\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.
 C:\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_access_rights.resources
 C:\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.Resources.resources
 C:\Users\hoangson\Google Drive\QLY_THIET_BI\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.vbproj.GenerateResource.Cache
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.exe
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.xml
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.pdb
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\bin\Debug\QLY_THIET_BI.exe
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\bin\Debug\QLY_THIET_BI.pdb
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\bin\Debug\QLY_THIET_BI.xml
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\ResolveAssemblyReference.cache
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_change_pass.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_grant_rights.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_list_of_equipment.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_options.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_position.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_inventory.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_type_of_equipment.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_login.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_main.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_employees.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_groups_of_users.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_department.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_access_rights.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.Resources.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.vbproj.GenerateResource.Cache
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_user_update.resources
+D:\WORKING\NCKH\QLY_THIET_BI_GIT\QLY_THIET_BI\obj\Debug\QLY_THIET_BI.frm_user.resources

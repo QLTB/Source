@@ -71,10 +71,10 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="frm_main.Designer.vb">
+      <DependentUpon>frm_main.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="frm_main.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_change_pass.Designer.vb">
@@ -125,16 +125,10 @@
     <Compile Include="frm_login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_main.designer.vb">
-      <DependentUpon>frm_main.vb</DependentUpon>
+    <Compile Include="frm_user.Designer.vb">
+      <DependentUpon>frm_user.vb</DependentUpon>
     </Compile>
-    <Compile Include="frm_main.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_users.Designer.vb">
-      <DependentUpon>frm_users.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frm_users.vb">
+    <Compile Include="frm_user.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_employees.Designer.vb">
@@ -161,6 +155,13 @@
     <Compile Include="frm_access_rights.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_user_update.Designer.vb">
+      <DependentUpon>frm_user_update.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_user_update.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="general.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -177,11 +178,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="rights_cmd.vb" />
-    <Compile Include="user_cmd.vb" />
+    <Compile Include="user.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_change_pass.resx">
       <DependentUpon>frm_change_pass.vb</DependentUpon>
@@ -207,11 +208,8 @@
     <EmbeddedResource Include="frm_login.resx">
       <DependentUpon>frm_login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_main.resx">
-      <DependentUpon>frm_main.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_users.resx">
-      <DependentUpon>frm_users.vb</DependentUpon>
+    <EmbeddedResource Include="frm_user.resx">
+      <DependentUpon>frm_user.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_employees.resx">
       <DependentUpon>frm_employees.vb</DependentUpon>
@@ -224,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_access_rights.resx">
       <DependentUpon>frm_access_rights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_user_update.resx">
+      <DependentUpon>frm_user_update.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
