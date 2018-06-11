@@ -22,26 +22,28 @@ Partial Class frm_grant_rights
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.LabelX1 = New DevComponents.DotNetBar.LabelX
         Me.GroupPanel1 = New DevComponents.DotNetBar.Controls.GroupPanel
         Me.DataGridViewX1 = New DevComponents.DotNetBar.Controls.DataGridViewX
         Me.ButtonX1 = New DevComponents.DotNetBar.ButtonX
         Me.ButtonX2 = New DevComponents.DotNetBar.ButtonX
         Me.ButtonX3 = New DevComponents.DotNetBar.ButtonX
-        Me.ButtonX4 = New DevComponents.DotNetBar.ButtonX
+        Me.btn_close = New DevComponents.DotNetBar.ButtonX
+        Me.GroupPanel1.SuspendLayout()
         CType(Me.DataGridViewX1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LabelX1
         '
+        Me.LabelX1.Anchor = System.Windows.Forms.AnchorStyles.Top
         '
         '
         '
         Me.LabelX1.BackgroundStyle.Class = ""
         Me.LabelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX1.Font = New System.Drawing.Font("Times New Roman", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX1.Location = New System.Drawing.Point(348, 26)
+        Me.LabelX1.Font = New System.Drawing.Font("Times New Roman", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX1.Location = New System.Drawing.Point(355, 30)
         Me.LabelX1.Name = "LabelX1"
         Me.LabelX1.Size = New System.Drawing.Size(228, 23)
         Me.LabelX1.TabIndex = 0
@@ -50,11 +52,16 @@ Partial Class frm_grant_rights
         '
         'GroupPanel1
         '
+        Me.GroupPanel1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.GroupPanel1.CanvasColor = System.Drawing.SystemColors.Control
         Me.GroupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.GroupPanel1.Location = New System.Drawing.Point(31, 58)
+        Me.GroupPanel1.Controls.Add(Me.ButtonX2)
+        Me.GroupPanel1.Controls.Add(Me.ButtonX3)
+        Me.GroupPanel1.Controls.Add(Me.ButtonX1)
+        Me.GroupPanel1.Controls.Add(Me.btn_close)
+        Me.GroupPanel1.Location = New System.Drawing.Point(24, 71)
         Me.GroupPanel1.Name = "GroupPanel1"
-        Me.GroupPanel1.Size = New System.Drawing.Size(863, 141)
+        Me.GroupPanel1.Size = New System.Drawing.Size(890, 157)
         '
         '
         '
@@ -91,26 +98,27 @@ Partial Class frm_grant_rights
         '
         'DataGridViewX1
         '
+        Me.DataGridViewX1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.DataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Times New Roman", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewX1.DefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Times New Roman", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewX1.DefaultCellStyle = DataGridViewCellStyle3
         Me.DataGridViewX1.GridColor = System.Drawing.Color.FromArgb(CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.DataGridViewX1.Location = New System.Drawing.Point(31, 251)
+        Me.DataGridViewX1.Location = New System.Drawing.Point(24, 249)
         Me.DataGridViewX1.Name = "DataGridViewX1"
-        Me.DataGridViewX1.Size = New System.Drawing.Size(863, 218)
+        Me.DataGridViewX1.Size = New System.Drawing.Size(890, 233)
         Me.DataGridViewX1.TabIndex = 2
         '
         'ButtonX1
         '
         Me.ButtonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
         Me.ButtonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.ButtonX1.Location = New System.Drawing.Point(395, 211)
+        Me.ButtonX1.Location = New System.Drawing.Point(357, 97)
         Me.ButtonX1.Name = "ButtonX1"
         Me.ButtonX1.Size = New System.Drawing.Size(83, 23)
         Me.ButtonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
@@ -121,7 +129,7 @@ Partial Class frm_grant_rights
         '
         Me.ButtonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
         Me.ButtonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.ButtonX2.Location = New System.Drawing.Point(529, 211)
+        Me.ButtonX2.Location = New System.Drawing.Point(491, 97)
         Me.ButtonX2.Name = "ButtonX2"
         Me.ButtonX2.Size = New System.Drawing.Size(83, 23)
         Me.ButtonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
@@ -132,37 +140,35 @@ Partial Class frm_grant_rights
         '
         Me.ButtonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
         Me.ButtonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.ButtonX3.Location = New System.Drawing.Point(656, 211)
+        Me.ButtonX3.Location = New System.Drawing.Point(618, 97)
         Me.ButtonX3.Name = "ButtonX3"
         Me.ButtonX3.Size = New System.Drawing.Size(83, 23)
         Me.ButtonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.ButtonX3.TabIndex = 0
         Me.ButtonX3.Text = "ButtonX3"
         '
-        'ButtonX4
+        'btn_close
         '
-        Me.ButtonX4.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
-        Me.ButtonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.ButtonX4.Location = New System.Drawing.Point(799, 211)
-        Me.ButtonX4.Name = "ButtonX4"
-        Me.ButtonX4.Size = New System.Drawing.Size(83, 23)
-        Me.ButtonX4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
-        Me.ButtonX4.TabIndex = 0
-        Me.ButtonX4.Text = "ButtonX4"
+        Me.btn_close.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btn_close.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btn_close.Location = New System.Drawing.Point(761, 97)
+        Me.btn_close.Name = "btn_close"
+        Me.btn_close.Size = New System.Drawing.Size(83, 23)
+        Me.btn_close.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.btn_close.TabIndex = 0
+        Me.btn_close.Text = "Thoát"
         '
         'frm_grant_rights
         '
-        Me.ClientSize = New System.Drawing.Size(924, 496)
-        Me.Controls.Add(Me.ButtonX2)
-        Me.Controls.Add(Me.ButtonX3)
-        Me.Controls.Add(Me.ButtonX4)
-        Me.Controls.Add(Me.ButtonX1)
+        Me.ClientSize = New System.Drawing.Size(938, 496)
         Me.Controls.Add(Me.DataGridViewX1)
         Me.Controls.Add(Me.GroupPanel1)
         Me.Controls.Add(Me.LabelX1)
+        Me.EnableGlass = False
         Me.Font = New System.Drawing.Font("Times New Roman", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "frm_grant_rights"
         Me.Text = "frm_grant_rights"
+        Me.GroupPanel1.ResumeLayout(False)
         CType(Me.DataGridViewX1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -173,5 +179,5 @@ Partial Class frm_grant_rights
     Friend WithEvents ButtonX1 As DevComponents.DotNetBar.ButtonX
     Friend WithEvents ButtonX2 As DevComponents.DotNetBar.ButtonX
     Friend WithEvents ButtonX3 As DevComponents.DotNetBar.ButtonX
-    Friend WithEvents ButtonX4 As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents btn_close As DevComponents.DotNetBar.ButtonX
 End Class

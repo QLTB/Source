@@ -1390,7 +1390,7 @@ Partial Class frm_main
         Me.DockSite9.TabIndex = 19
         Me.DockSite9.TabStop = False
         '
-        'Form1
+        'frm_main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -1409,7 +1409,7 @@ Partial Class frm_main
         Me.EnableGlass = False
         Me.Font = New System.Drawing.Font("Times New Roman", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.Name = "Form1"
+        Me.Name = "frm_main"
         Me.Text = "Phần mềm quản lý thiết bị"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.RibbonPanel4.ResumeLayout(False)
